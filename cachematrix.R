@@ -1,6 +1,4 @@
-
 ##########  Write a pair of functions that cache the inverse of a matrix
-
 ## setwd('C:/.../Assignment_2_Lexical_Scoping')
 
 library(MASS)       # for 'ginv' function (it will give the generalized inverse of a matri)
@@ -54,11 +52,9 @@ cacheSolve <- function(x, ...) {
     m
 }
 
-
 ###################################
 ############  Testing  ############
 ###################################
-
 ## source("C:/.../cache_inverse2.R")
 
 my_matrix <- makeCacheMatrix(matrix(20:25, 3, 2))
